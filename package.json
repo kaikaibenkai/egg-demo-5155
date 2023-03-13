@@ -1,0 +1,14 @@
+{
+  "name": "next-oj",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "lerna exec yarn start",
+    "dev:backend": "cd packages/backend && yarn dev"
+  },
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  }
+}
